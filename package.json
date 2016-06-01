@@ -1,15 +1,24 @@
 {
-  "name": "创业天使",
+  "name": "chuangyepaper",
   "version": "1.0.0",
-  "description":"你消费，你创业，你成功，你快乐",
-  "author":"MrChen2015",
-  "license":"MIT",
+  "description": "你消费，你创业，你成功，你快乐",
+  "author": "MrChen2015",
+  "license": "MIT",
   "devDependencies": {
     "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-csslint": "^1.0.0",
     "grunt-contrib-cssmin": "^1.0.1",
     "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-less": "^1.3.0",
     "grunt-contrib-uglify": "^1.0.1",
-    "grunt-contrib-watch": "^1.0.0"
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-karma": "^2.0.0",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2"
   }
 }
