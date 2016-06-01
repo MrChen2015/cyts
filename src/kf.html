@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Styling HTML5</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- IE9的浏览器，但是浏览器的文档模式却是IE8，这段代码来让IE的文档模式永远都是最新的 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <!-- 我们的代码有类似于电话这样的数字的时候，因为有的手机上它会自动转换成可以拨打电话，所以我们加上这句就不会了。 -->
+  <meta content="telephone=no,email=no" name="format-detection" />
+  <!-- revisit-after元标签只能减少搜索引擎的抓取频率，要想使搜索引擎更频繁的访问你的网站，网站自身的内容建设和更新才是最重要的 -->
+  <!-- <meta name="revisit-after" content="1 days"> -->
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <!-- <meta name="author" content="m.taobao.com"> -->
+  <!-- <meta name="copyright" content="Copyright ©m.taobao.com 版权所有"> -->
+
+  <meta content="yes" name="apple-mobile-web-app-capable">   
+  <meta content="yes" name="apple-touch-fullscreen">  
+  <meta content="black" name="apple-mobile-web-app-status-bar-style">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/kf.css">
+
+</head>
+
+<body>
+<div class="container">
+	
+    <div class="databox">
+    	<p class="tel">
+        在线客服人工服务时间：每天9:00-24:00<br>
+电话：<b>4006-0371-22</b>
+        </p>
+        <h4 class="question">常见问题</h4>
+        <div class="slidemenu">
+			<h3 class="on">1.订单提交后发现东西买错了能取消吗？</h3>
+            <div class="content" style="">
+            	<p>由于系统属于流水化操作，订单形成之后无法增加或者减少商品，地址信息在付款后两小时内有一次更改机会。</p>
+            </div><h3>2.“7天退换货”中涉及的运费由谁承担？</h3>
+            <div class="content" style="display: none;">
+            	<p>非商品质量问题由买家承担；商品质量问题，由商家承担。</p>
+            </div><h3>3. 我下了两笔订单，可以合并订单嘛？</h3>
+            <div class="content" style="display: none;">
+            	<p>因系统属于流水化操作，订单一旦生成，无法修改任何信息，故无法并单。</p>
+            </div><h3>4.你们商城卖的是正品吗？有保障吗？</h3>
+            <div class="content" style="display: none;">
+            	<p>在商品质量管理和入库等环节上，创业天使商城的专业团队会严格把关，保障所有商品都为正品真货，并严格遵照国家三包法规，确保您能买到放心商品。</p>
+            </div>        </div>
+        <script src="vendor/js/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="vendor/js/jquery.SuperSlide.2.1.1.js"></script>
+        <script type="text/javascript">
+			jQuery(".slidemenu").slide({titCell:"h3",targetCell:".content", effect:"slideDown", delayTime:300 ,triggerTime:150});
+		</script>
+    </div>
+</div>
+
+</body>
+
+</body>
+</html>

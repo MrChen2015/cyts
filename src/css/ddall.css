@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+.container{	margin: 0 auto;	width:100%;	height:100%;position: relative;padding: 0;}
+
+.hd{line-height:44px; background-color:#fff; border-top:1px solid #e5e5e5;}
+.hd ul{ overflow:hidden;line-height:44px; border-bottom:1px solid #e5e5e5;list-style: none;}
+.hd ul li{ float:left; width:20%; text-align:center; border-bottom:2px solid #fff; color:#666; font-size:14px;position: relative;}
+.hd ul li.on{ border-bottom:2px solid #e41839; color:#e41839;}
+
+.piece{ margin:10px 0; background-color:#fff;}
+.piece .title{ height:40px; line-height:40px; overflow:hidden; width:96%; margin:0 auto;}
+.piece .title .tleft{ float:left; font-size:12px; color:#999999;}
+.piece .title .tright{ float:right; font-size:12px; color:#e41839;}
+.pro{ background-color:#f8f8f8; padding:10px; width:100%; overflow:hidden;}
+.pro img{ float:left; width:22%;}
+.pro .text{ float:left; width:78%; padding:0 10px; overflow:hidden;}
+.pro .text .commodity{  width:80%; color:#393939; line-height:24px;}
+.pro .text .shuxing{ float:right; width:20%; color:#999; line-height:24px;}
+.pro .text .shuxing span{ display:block; text-align:right;}
+.heji{ margin-top:5px; padding-top:5px; font-size:12px; color:#999;border-top:1px solid #e5e5e5;}
+
+.caozuo{ height:40px; line-height:40px; overflow:hidden;}
+.caozuo span.del{ display:block; float:right; width:66px; height:24px; line-height:24px; border-radius:5px; border:1px solid #e5e5e5; text-align:center; font-size:14px; color:#333;margin:8px 5px;}
+.caozuo span.del a{ color:#333;}
+.caozuo span.red{ display:block; float:right; width:66px; height:24px; line-height:24px; border-radius:5px; border:1px solid #e41839; text-align:center; font-size:14px; color:#fff;margin:8px 5px; background-color:#e41839;}
+.caozuo span.red a{ color:#fff;}
+/*评价*/
+.databox{ background-color:#fff;}
+.goods{ overflow:hidden; padding:10px; margin-top:10px;border-bottom:1px solid #e5e5e5;border-top:1px solid #e5e5e5;}
+.goods .proimg{ float:left; margin-left:20px; width:104px; height:104px; border:1px solid #ccc;}
+.goods .gtext{ float:left; width:60%; padding-left:20px;}
+.goods .gtext h4{ font-size:14px; color:#333; line-height:24px;}
+.gtext .money{font-family:Arial;}
+.gtext .money span{ font-size:20px; font-weight:bold; color:#ff1e1e;}
+.gtext .money i{ text-decoration:line-through; color:#999; font-size:12px; margin-left:5px; font-style:normal;}
+
+.pingjiatit{ font-size:16px; color:#333;width:96%; margin:10px auto;}
+.commentbox{ overflow:hidden;width:96%; margin:10px auto; padding-bottom:20px;}
+.commentbox textarea{ display:block; float:left; width:70%; margin-right:2%; height:66px; background-color:#f0f0f0; border:1px solid #e5e5e5; border-radius:5px; resize:none; padding:5px;}
+.commentbox .uploading{ display:block; float:left; width:66px;}
+.uploading{position:relative;}
+.uploading input{ cursor:pointer;width:66px;height:66px;position:absolute;left:0;top:0;filter:alpha(opacity=0); -moz-opacity:0;  -khtml-opacity: 0; opacity: 0; display:block;font-size:70px;}
+.uploading i{display:block;width:66px;height:66px;background:url(../images/pingjia.png) no-repeat center center;}
+.imgbox{ margin-top:10px; overflow:hidden;}
+.imgbox img{ float:left; display:block; width:86px; height:86px; margin-right:10px;}
+/*购物车*/
+.shang{ padding-bottom:60px;}
+.shop-tit{ height:40px; line-height:40px; border-bottom:1px solid #e5e5e5; background-color:#fff;margin-top:10px;border-top:1px solid #e5e5e5; overflow:hidden; padding:0 10px;}
+.shop-tit .sh-xuan{ float:left; width:5%; text-align:center;}
+.shop-tit .sh-dian{ float:left; background:url(../images/center_25.png) no-repeat left center; padding-left:25px; font-size:14px; color:#666;}
+.shop-tit .sh-del{ float:right;font-size:14px; color:#888;}
+.shop-list{ background-color:#fff;}
+.shop-list li{ overflow:hidden; padding:10px;border-bottom:1px solid #e5e5e5; position:relative;}
+.shop-list input{ float:left; margin:40px 0; width:5%; text-align:center;}
+.goodscar{ overflow:hidden;float:left; width:95%;}
+.goodscar .proimg{ float:left;width:90px; height:90px; margin-left:10px; border:1px solid #ccc;}
+.goodscar .gtext{ float:left; width:60%; padding-left:10px;}
+.goodscar .gtext h4{ font-size:14px; color:#333; line-height:24px; height:48px; overflow:hidden;}
+.shop-list .num{ position:absolute; right:20px; bottom:10px; font-size:14px; color:#999;}
+
+.gopay{ height:54px; line-height:54px; background-color:#fff; overflow:hidden; position:fixed; bottom:0; left:0; width:100%;}
+.gopay label{ float:left; width:60px; line-height:54px; font-weight:normal; padding-left:10px;}
+.gopay label input{ vertical-align:text-bottom; margin-right:5px;}
+.gopay .hejip{ float:left; width:176px; font-size:14px; color:#333;}
+.gopay .hejip span{ color:#e41839;}
+.gopay .paybtn{ float:right; width:26%; background-color:#2cce67; color:#fff; text-align:center; font-size:18px;}
+.gopay .paybtn a{ color:#fff;}
+.layui-layer-hui{ width:80%; margin:0 auto;}
+/*确认订单*/
+.jia{ width:100%; margin:10px auto; height:40px; border-radius:5px; border:1px solid #e5e5e5; background-color:#fff; text-align:center;}
+.jia a{ display:block;}
+.jia p{ font-size:14px; line-height:40px; color:#aaaaaa;}
+.jia p img{ width:20px; height:20px; display:inline-block; vertical-align:middle; margin-right:5px;}
+
+.dizhi{ width:96%; margin:10px auto;}
+.dizhi h3{ font-size:16px; color:#333; margin:15px 0;}
+.dizhi .biao{ position:relative; border:1px solid #e5e5e5; border-radius:3px; background:url(../images/check_03.png) repeat-x top left; background-color:#fff; padding:15px 10px}
+.dizhi .biao a{ display:block;}
+.dizhi .biao .default{ position:absolute; right:0; top:20px; background:url(../images/check_07.png) no-repeat right center; padding:10px 5px; background-size:contain; font-size:12px; color:#888;}
+.dizhi .biao h4{ font-size:14px; color:#333; margin:10px 0;}
+.dizhi .biao h4 span{ margin-right:10px;}
+.dizhi .biao p{ font-size:14px; line-height:22px; color:#999999;}
+
+.shangpin{ background-color:#fff;}
+.shangpin .dian{ background:url(../images/center_25.png) no-repeat 10px center; padding-left:35px; font-size:14px; color:#666; height:40px; line-height:40px;}
+.shangpin .check{ overflow:hidden; padding:10px;border-bottom:1px solid #e5e5e5; background-color:#f5f5f5; position:relative;}
+.shangpin .check .goodscar{ overflow:hidden;}
+.shangpin .check .goodscar .proimg{ float:left;width:90px; margin-left:0; height:90px;border:1px solid #ccc;}
+.shangpin .check .goodscar .gtext{ float:left; width:60%; padding-left:10px;}
+.shangpin .check .goodscar .gtext h4{ font-size:14px; color:#333; line-height:24px; height:48px; overflow:hidden;}
+.shangpin .check .num{ position:absolute; right:20px; bottom:10px; font-size:14px; color:#999;}
+
+.feiyong{ background-color:#fff;padding:0 10px; margin-bottom:10px;}
+.feiyong .hang{ border-bottom:1px solid #e5e5e5; height:40px; line-height:40px; font-size:14px; color:#333;}
+.feiyong .hang span{ color:#e61616;}
+.feiyong textarea{ width:100%; height:60px; line-height:24px; font-size:14px; border:none;}
+.feiyong .he{ text-align:right; font-size:16px; line-height:40px; height:40px; margin-top:5px; border-top:1px solid #e5e5e5;}
+.feiyong .he span{ color:#e61616;}
+.zhifu{ background-color:#fff; margin-bottom:60px;}
+.zhifu .choose{ height:40px; line-height:40px; border-bottom:1px solid #e5e5e5;font-size:14px; color:#333; padding-left:15px;}
+.type li{ overflow:hidden; width:95%; padding:10px;background:url(../images/choose2.png) no-repeat right center; background-size:16px 16px;}
+.type li img{ float:left; width:24%; margin:1%; min-width:100px; border:1px solid #e2e2e2;}
+.type li .yue{ float:left; width:24%; margin:1%; min-width:100px; border:1px solid #e2e2e2;}
+.type li .yue h4{ font-size:12px; font-weight:bold; color:#333; text-align:center; line-height:24px;}
+.type li .yue p{ font-size:18px; font-weight:bold; color:#e61616; text-align:center;}
+
+.type li .ttext{ float:left; width:62%; padding:0 10px;}
+.type li .ttext h5{ font-size:14px; color:#333; line-height:30px;}
+.type li .ttext p{ font-size:12px; color:#bdbdbd;}
+.type li.choosed{ overflow:hidden; width:95%; padding:10px;background:url(../images/choose1.png) no-repeat right center; background-size:16px 16px;}
+.submitbtn{ position:fixed; bottom:0; left:0; width:100%; height:54px; line-height:54px; background-color:#2cce67; font-size:18px; color:#fff; text-align:center;}
+
+
+
+.message{    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: #e41839;
+    display: block;
+    position: absolute;
+    top: 6px;
+    right: 7px;
+    color: #fff;
+    line-height: 20px;}
+
+
+
+
+
+
+
+

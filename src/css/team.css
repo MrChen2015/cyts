@@ -1,0 +1,13 @@
+.body{width: 100%;height: 100%;background: #fff;background:#f7f5f5;}
+ul{list-style: none;}
+li{height: 65px;position: relative;}
+li:nth-child(even){background:#f7f5f5;}
+li:nth-child(odd){background:#fff;}
+.photo{display: inline-block;width: 49px;height: 49px;border-radius: 100%;background: #ff6900;text-align: center;margin: 8px;position: relative;left: 20px;}
+.wxname{display: inline-block;height: 65px;position: relative;left: 30px;line-height: 65px;font-size: 15px;overflow: hidden;width: 200px;}
+.head{height: 150px;width: 100%;position: relative;background: #009966;}
+.head .userph{display: block;float: left;width: 30%;height: 100%;}
+.userph img{border-radius:100%;width: 70px;height: 70px;margin-top: 40px;position: absolute;left: 0;margin-left: 18px;}
+.head div {width: 70%;height:100%;float: right;}
+.head div h3{color: #fff;font-size: 20px;margin-top: 60px;}
+.head div p{font-size: 12px;}

@@ -1,0 +1,15 @@
+@charset "utf-8";
+	
+html{height:100%;}
+body{background:#fff;}
+.databox{ background-color:#fff; margin-top: 25%;}
+/*帮助中心*/
+.tel{ font-size:14px; line-height:24px; color:#333; padding-left:50px; background:url(../images/help_03.png) no-repeat left center; width:96%; margin:20px auto;}
+.tel b{ font-weight:bold; color:#000;}
+.question{ font-size:16px; color:#000; background:url(../images/help_07.png) no-repeat 5px center; padding-left:15px; margin-bottom:10px;}
+.slidemenu{ padding-bottom:30px;}
+.slidemenu h3{ height:44px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; line-height:44px;background:url(../images/help_13.png) no-repeat right center; background-size:56px 44px; background-color:#f6f6f6; font-size:14px; color:#333; padding-left:15px; margin-bottom:5px;}
+.slidemenu h3.on{background:url(../images/help_11.png) no-repeat right center;background-size:56px 44px; background-color:#f6f6f6; }
+.slidemenu .content{ font-size:14px; line-height:24px; padding:15px;}
+.content p{text-indent: 30px;}
+

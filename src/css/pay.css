@@ -1,0 +1,19 @@
+.body{width: 100%;margin-top: 50px;background:#f7f5f5;}
+.zffs{width: 100%;height:50px;line-height: 50px;color:#b1adad; padding-left: 10px;font-size: 15px;}
+.way{width: 100%;height: 60px;background: #fff;position: relative;}
+
+.checked:after{content: "";background: url(../images/editads_01.png) no-repeat !important;background-size: contain !important;width: 20px;height:20px;display: inline-block;float: right;margin: 20px;}
+.way:after{content: "";background: url(../images/shopcar_02.png) no-repeat;background-size: contain;width: 20px;height:20px;display: inline-block;float: right;margin: 20px;}
+.sfje{width: 100%;height: 50px;background: #fff;margin-top:10px;line-height: 50px;}
+.money{color: #f00;font-size: 25px;}
+.iconye{width: 40px;height: 40px;display: inline-block;background: url(../images/pay_01.png) no-repeat;background-size:100% 100%; margin: 10px;}
+.iconwx{width: 40px;height: 40px;display: inline-block;background: url(../images/pay_02.png) no-repeat;background-size:100% 100%;margin: 10px;}
+.qr{display:block;width: 80%;height: 50px;margin: 100px auto;color: #fff;background-color: #f00;font-size: 25px;text-align: center;line-height: 50px;border-radius: 5px;}
+.content{display: inline-block;width: 100px;position: absolute;top: 14px;}
+.contentwx{display: inline-block;width: 75px;position: absolute;top: 14px;}
+.txtye{font-size: 15px;font-weight: normal;}
+.moye{color: #f00;font-weight: normal;}
+.mowx{color: #f00;font-weight: normal;font-size: 12px;display: inline-block;}
+
+/*.checked{}
+.unchecked{background: url(../images/shopcar_02.png) no-repeat;background-size: contain;width: 20px;height:20px;display: inline-block;float: left;margin: 10px;}*/

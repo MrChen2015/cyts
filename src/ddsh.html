@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Styling HTML5</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!-- IE9的浏览器，但是浏览器的文档模式却是IE8，这段代码来让IE的文档模式永远都是最新的 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<!-- 我们的代码有类似于电话这样的数字的时候，因为有的手机上它会自动转换成可以拨打电话，所以我们加上这句就不会了。 -->
+	<meta content="telephone=no,email=no" name="format-detection" />
+	<!-- revisit-after元标签只能减少搜索引擎的抓取频率，要想使搜索引擎更频繁的访问你的网站，网站自身的内容建设和更新才是最重要的 -->
+	<!-- <meta name="revisit-after" content="1 days"> -->
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<!-- <meta name="author" content="m.taobao.com"> -->
+	<!-- <meta name="copyright" content="Copyright ©m.taobao.com 版权所有"> -->
+
+	<meta content="yes" name="apple-mobile-web-app-capable">   
+	<meta content="yes" name="apple-touch-fullscreen">  
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/ddall.css">
+	<!-- <link rel="stylesheet" href="css/swiper.min.css"> -->
+
+</head>
+<body>
+
+<div class="container">
+    <div class="dingdan">
+    <div class="hd">
+        <ul>
+            <li style="cursor:pointer;" status="0">全部</li>
+            <li style="cursor:pointer;" status="1">待付款</li> 
+            <li style="cursor:pointer;" status="2">待发货</li>
+            <li style="cursor:pointer;" status="3" class="on">待收货</li>
+            <li style="cursor:pointer;" status="4">已完成</li>
+        </ul>
+    </div>
+	
+    <div class="bd">
+    	<div class="change">
+
+    	<div style="margin:30px 30px">您还没有订单，请先去购买商品！</div>
+    	
+		<div class="piece">
+                <div class="title">
+                    <span class="tleft">下单日期：2016-05-13</span>
+                    <span class="tright">等待买家收货</span>
+                </div>
+				<div class="pro">
+						<img src="/Uploads/./goods/2016-04-25/571dfd691e8db.jpg">
+						<div class="text">
+							<p class="commodity">亨奇198创业礼包（璞竹原色有芯卷纸180gX10卷+抽纸408张X24包+手帕纸8片X60包）</p>
+							<p class="clearfix"></p>
+							<div class="heji">
+								<p>共1件商品  合计：¥198.00</p>
+							</div>
+						</div>
+				</div>                
+				<div class="caozuo">
+					<span class="red"><a href="/index.php/Wap/Buycar/pay/order_id/330.html">确认收货</a></span>
+					<span class="del del1" onclick="quxiao(330)">查看物流</span>
+				</div>
+            </div>	
+
+        <div class="piece">
+                <div class="title">
+                    <span class="tleft">下单日期：2016-05-13</span>
+                    <span class="tright">等待买家收货</span>
+                </div>
+				<div class="pro">
+						<img src="/Uploads/./goods/2016-04-25/571dfd691e8db.jpg">
+						<div class="text">
+							<p class="commodity">亨奇198创业礼包（璞竹原色有芯卷纸180gX10卷+抽纸408张X24包+手帕纸8片X60包）</p>
+							<p class="clearfix"></p>
+							<div class="heji">
+								<p>共1件商品  合计：¥198.00</p>
+							</div>
+						</div>
+				</div>                
+				<div class="caozuo">
+					<span class="red"><a href="/index.php/Wap/Buycar/pay/order_id/330.html">确认收货</a></span>
+					<span class="del del1" onclick="quxiao(330)">查看物流</span>
+				</div>
+            </div>
+
+            </div>
+    	</div>
+    </div>	
+</div>
+<!-- IE9-支持HTML5,CSS3 Media -->
+  	<!--[if lt IE 9]>
+  	<script src="js/html5shiv.min.js"></script>
+  	<script src="js/respond.min.js"></script>
+  	<![endif]-->
+
+	<script src="vendor/js/jquery-2.1.4.min.js"></script>
+	<!-- <script src="js/swiper.jquery.min.js"></script> -->
+	<!-- <script src="js/base.js"></script> -->
+	<script>
+		$(".hd ul li").click(function(){
+			var status=$(this).attr('status');
+			if(status==0){
+				location.href="/index.php/Wap/Personal/dingdan.html"; 
+			}else{
+				location.href="/index.php/Wap/Personal/dingdan/status/"+status+".html"; 
+			}
+			
+
+		})
+	</script>
+  	
+</body>
+</html>

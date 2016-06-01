@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Styling HTML5</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!-- IE9的浏览器，但是浏览器的文档模式却是IE8，这段代码来让IE的文档模式永远都是最新的 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<!-- 我们的代码有类似于电话这样的数字的时候，因为有的手机上它会自动转换成可以拨打电话，所以我们加上这句就不会了。 -->
+	<meta content="telephone=no,email=no" name="format-detection" />
+	<!-- revisit-after元标签只能减少搜索引擎的抓取频率，要想使搜索引擎更频繁的访问你的网站，网站自身的内容建设和更新才是最重要的 -->
+	<!-- <meta name="revisit-after" content="1 days"> -->
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<!-- <meta name="author" content="m.taobao.com"> -->
+	<!-- <meta name="copyright" content="Copyright ©m.taobao.com 版权所有"> -->
+
+	<meta content="yes" name="apple-mobile-web-app-capable">   
+	<meta content="yes" name="apple-touch-fullscreen">  
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<!-- <link rel="stylesheet" href="css/swiper.min.css"> -->
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/account.css">
+	
+
+</head>
+<body>
+	<div class="container">
+		<div class="header"><span>我的账户</span><span class="back" onclick="javascript:history.go(-1);"></span></div>
+		<div class="body">
+			<div class="content">
+				<p class="yets">当前账户余额</p>
+				<p class="yemo">5555.00元</p>
+				<p class="yelj">创业天使累计返现5555.00元</p>
+			</div>
+			<a href="javascript:;"><div class="tiao">余额收支明细</div></a>
+			<a href="payin.html"><div class="tiao">余额充值</div></a>
+			<a href="payout.html"><div class="tiao">提现到微信钱包</div></a>
+			<div class="tishi">
+				<img src="images/account_01.png">你还没有设置六位支付密码，暂时不能使用余额支付，<a href="javascript:;">点我开启
+			</a>
+			</div>
+		</div>	
+	</div>
+	
+
+	<!-- IE9-支持HTML5,CSS3 Media -->
+  	<!--[if lt IE 9]>
+  	<script src="js/html5shiv.min.js"></script>
+  	<script src="js/respond.min.js"></script>
+  	<![endif]-->
+
+	<script src="vendor/js/jquery-2.1.4.min.js"></script>	
+	<!-- <script src="js/swiper.jquery.min.js"></script> -->
+	<!-- <script src="js/address.js"></script> -->
+	
+  	
+</body>
+</html>

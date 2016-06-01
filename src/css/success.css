@@ -1,0 +1,18 @@
+html,body{padding-bottom: 0 !important;height: 100%;}
+.container{	margin: 0 auto;	width:100%;	height:100%;position: relative;text-align: center;font-size: 15px;background: #fbf9fe;}
+/*.body{background:#f34541;height:100%;width: 100%;line-height: 100%;text-align: center; }*/
+/*.body .cen{position: absolute;left: 50%;margin-left: -90px;top: 50%;margin-top: -150px;width: 180px;height: 180px;}
+.body .cen img{border-radius: 100%;height: 180px;width: 180px;}
+.body .cen p{margin:20px auto;font-size: 20px;color: #fff; }*/
+.icon{text-align: center;width:100%;height: 25%;    margin-bottom: 30px;}
+.icon .succ{background: url(../images/success.png) no-repeat; background-size: 100% 100%;width: 90px;height: 90px;display: inline-block;    margin: 60px auto;}
+/*.btngroup{}*/
+.ok{width: 95%;height: 42px;border-radius: 5px;border: 1px solid #efeaea;display: block;background: #04BE02;color:#fff;line-height: 42px;}
+.cancel{width: 95%;height: 42px;border-radius: 5px;border: 1px solid #efeaea;display: block;background: #F7F7F7;color:#454545;line-height: 42px;}
+.btn{margin: 10px auto;}
+/*.btn:after{content: " ";width: 200%;height: 200%;position: absolute;top: 0;left: 0;border: 1px solid rgba(230, 230, 230, 1);-webkit-transform: scale(0.5);transform: scale(0.5);-webkit-transform-origin: 0 0;transform-origin: 0 0;box-sizing: border-box;border-radius: 10px;}*/
+
+.title{margin-bottom: 5px;font-weight: 400;font-size: 20px;}
+.xx{    margin-bottom: 25px;padding: 0 20px;}
+.xq{font-size: 14px;color: #888;}
+.btngroup{margin-bottom: 25px;}

@@ -1,0 +1,36 @@
+.qrdd .container{	margin: 0 auto;	width:100%;	height:100%;position: relative;overflow-x: hidden;padding-bottom: 60px;}
+
+.qrdd .body{padding-top: 50px;padding-bottom: 60px;}
+.qrdd .tiao{width: 95%;height: auto;margin:10px auto; background-color: #fff;border-radius: 5px;display: -webkit-flex;display: flex;}
+.qrdd .check{width: 20px;height: 20px;display: inline-block;float: left;margin: auto 6px;}
+.qrdd .checked{background:url(../images/editads_01.png) no-repeat;background-size: contain;}
+.qrdd .unchecked{background:url(../images/shopcar_02.png) no-repeat;background-size: contain;}
+.qrdd .tiao>img {float: left;margin: 10px;width: 105px;height: 80px;}
+.qrdd .tiao div {float: left;display: inline-block;height: 100%;width: 240px;text-align: left;margin: auto 10px;}
+.qrdd .tiao h3{font-size: 18px;margin: 10px 0;}
+.qrdd .tiao h4{margin: 10px 0;font-size: 15px;}
+.qrdd .tiao p{margin: 0;margin-bottom: 15px;padding: 0;}
+.qrdd .tiao span span{display: inline-block;}
+
+.qrdd .tj{position: fixed;bottom: 0;left: 0;margin: 0;width:100%;border-top:1px solid #d7d7d7; }
+.qrdd .tj>div{border-top-left-radius: 5px;border-bottom-left-radius: 5px;width: 80%;font-size: 18px;}
+.qrdd .tj>div p{margin: 0;margin-bottom: 15px;padding: 0;text-align: center;margin:0; font-weight: normal; }
+.qrdd .btn{width: 20%;background: #f00;text-align: center;line-height: 55px;font-weight: normal;color: #fff;font-size: 20px;margin-top: -1px;}
+.qrdd .all{float: left;margin: 15px 0 !important;height: 100%;}
+.qrdd .xq{text-align: center;width: 100%;font-size: 20px;font-weight: normal;margin: 0;}
+.qrdd .mo{color: #f00;}
+.qrdd .sl{color:#8e8d8d;}
+
+.qrdd .line{width: 100%;height: 60px;background: #fff;border-bottom: 1px solid #d7d7d7;font-size: 14px;line-height: 60px;}
+.qrdd .line h3{margin-top:0;margin-bottom: 0; }
+.qrdd .line input{height: 95%;outline: 0;border: 0;width: 65%;}
+.qrdd .martop {margin-top: 5px;}
+.qrdd .linel{float: left;margin-left: 20px;}
+.qrdd .liner{float: right;margin-right: 20px;} 
+
+.qrdd .ads{position: relative;width: 100%;height: 120px;background: #fff;}
+.qrdd .ads:before{content: "";width: 100%;height: 7px;position: absolute;bottom: 0; left: 0;background: url(../images/qrdd_01.png) repeat-x;    background: url(../images/qrdd_01.png) repeat-x;background-size: 25% 100%;}
+.qrdd .ads:after{content: ">";width: 100%;height: 38px;position: absolute;bottom: 20%;left: 90%;margin-right: -73px;font-size: 17px;color: #000;transform: scale(1,2);-webkit-transform: scale(1,2);}
+.qrdd .ads img{width: 25px;height: 30px;margin:10px 20px; }
+.qrdd .ads .adstxt{width:60%;display: inline-block;font-size: 13px;}
+.qrdd .ads .adstxt h3{font-size: 15px;}

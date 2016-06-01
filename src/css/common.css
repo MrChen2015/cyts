@@ -1,0 +1,39 @@
+html{margin:0;padding: 0;}
+body{padding-bottom: 60px;font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;width: 100%;height: 100%;margin:0;padding: 0;display: block;background-color: #f7f5f5;overflow-x: hidden;-webkit-tap-highlight-color: transparent;font-size: 12px !important;color: #333;}
+h4,h5,p,ul{margin:0;padding: 0;}
+a{text-decoration:none;color: #000;} 
+input,select{outline: 0;-webkit-appearance:none;}
+dd{margin-left:0px;}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*header*/
+.header{width: 100%;height: 50px;text-align: center;background: #fff;line-height: 50px;font-size:20px;font-weight: normal;border-bottom: 1px solid #d7d7d7;position: fixed;top: 0;z-index: 1;}
+/*.header:before{content: "<";position: absolute;left: 10px;font-size:30px;font-weight: normal;font-family: "黑体";color:#747782;}*/
+.back{position: absolute;left: 10px;top: 50%;margin-top: -12.5px;display: block;width: 25px;height: 25px;background: url(../images/back.png) no-repeat;background-size: 100% 100%;}
+.graylinedash{border-bottom: 2px dashed #b1adad !important;}
+.graylinesolid{border-bottom: 1px solid #d7d7d7 !important;}
+.left{float: left;margin-left: 10px;font-weight: normal;}
+.right{float: right;margin-right: 10px;font-weight: normal;}
+
+/*底部菜单*/
+/*menu*/
+.menu{position: fixed;bottom: 0;width: 100%;height: 60px;background: #f3f3f3;border-top:1px solid #d8d8d8;text-align: center;}
+.menu ul{list-style: none;width: 100%;height: 100%;}
+.menu ul li{float: left;width: 25%;}
+.menu ul li a {height: 40px;margin:10px auto; }/*"Helvetica Neue",*/
+
+.icon_home span{background: url(../images/home_01.png);background-size: 100% 100%;width: 25px;height: 25px;display: inline-block;text-align: center;margin-top: 5px;}
+.icon_homec span{background: url(../images/home_02.png);background-size: 100% 100%;width: 25px;height: 25px;display: inline-block;text-align: center;margin-top: 5px;}
+.icon_homec p{color: #f60018;}
+.icon_per span{background: url(../images/per_01.png);background-size: 100% 100%;width: 25px;height: 25px;display: inline-block;text-align: center;margin-top: 5px;}
+.icon_perc span{background: url(../images/per_02.png);background-size: 100% 100%;width: 25px;height: 25px;display: inline-block;text-align: center;margin-top: 5px;}
+.icon_perc p{color: #f60018;}
+.icon_shop span{background: url(../images/shop_01.png);background-size: 100% 100%;width: 25px;height: 25px;display: inline-block;text-align: center;margin-top: 5px;}
+.icon_shopc span{background: url(../images/shop_02.png);background-size: 100% 100%;width: 25px;height: 25px;display: inline-block;text-align: center;margin-top: 5px;}
+.icon_shopc p{color: #f60018;}
+.icon_gift span{background: url(../images/gift_01.png);background-size: 100% 100%;width: 25px;height: 25px;display: inline-block;text-align: center;margin-top: 5px;}
+.icon_giftc span{background: url(../images/gift_02.png);background-size: 100% 100%;width: 25px;height: 25px;display: inline-block;text-align: center;margin-top: 5px;}
+.icon_giftc p{color: #f60018;}

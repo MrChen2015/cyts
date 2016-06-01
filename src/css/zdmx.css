@@ -1,0 +1,10 @@
+html,.container{height: 100%;}
+.body{width: 100%;height: 100%;background:#fff;}
+h2,h3{margin: 0;}
+.title{height: 80px;line-height: 80px;}
+.line{height: 45px;line-height: 45px;}
+.leftz{float: left;margin-left: 20px;color: #828181;}
+.rightz{float: right;margin-right: 18px;}
+.leftt{float: left;margin-left: 15px;color: #828181;}
+.rightt{float: right;margin-right: 20px;font-size: 20px;}
+hr{border: 1px solid #e8e8e8;}

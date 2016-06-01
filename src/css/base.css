@@ -1,0 +1,45 @@
+/*html,body{margin: 0;padding: 0;	height: 100%;width:100%;background: #f3f3f3;overflow-x: hidden;margin-bottom: 60px;}
+h4,h5,p,ul{margin:0;padding: 0;}*/
+
+/*<--index-->*/
+.container{	margin: 0 auto;	position: relative;text-align: center;padding-bottom: 60px;}
+.container:before{clear: both;}
+.container:after{clear: both;}
+/*banner*/
+.banner{height: 30%;}
+.banner img{width: 100%;height: 100%;}
+/*xl*/
+.xl{width: 96%;height: 120px;background: #fff;margin: 10px auto;border-radius: 5px;/*position: absolute;*/}
+.xl div{width: 27%;height: auto;display: inline-block;margin: 9px auto;}
+.xl div img{width: 50px;height: auto;margin-bottom: 5px;}
+.xl div p.txtxl{font-size:15px;font-weight: normal;}
+.xl div p.txtcp{font-size:12px;color:#737373;}
+.xl .linev{height: 80px;display: inline-block;border-right: 1px solid #e5e5e5;}
+.xl:after{clear: both;}
+/*hot*/
+.hot{width: 96%;height: 25px;background: #fff;margin: 10px auto;border-radius: 5px;/*position: absolute;top:330px;*/}
+.hot span{margin: 5px;}
+.hot .rx{float: left;position: absolute;left: 20px;;font-size:15px;}
+.hot .rx:before{content:"";background:#00af5a; background-size: 100% 100%;width: 5px;height: 12px;position: absolute;left: -6px;top:2px;}
+.hot .more{float: right;color:#00af5a;font-size:13px;}
+.hot .more:before{content:"";background-image:url(../images/index_04.png);background-size: 100% 100%;width: 14px;height: 14px;position: absolute;right: 67px;}
+/*list*/
+.list{width: 96%;height: 210px;background: #fff;margin: 10px auto;border-radius: 5px;/*position: absolute;top:370px;*/}
+.list img{float: left;height: 100%;width: 30%;}
+.list div{float: left;width: 66%;height: 100%;text-align: left;margin-left: 10px;}
+.list div .t1{font-size: 15px;color: #393a3f;font-weight: normal;}
+.list div .t2{font-size: 12px;color: #737373; }
+.list div .t3{font-size: 17px;color:#f61c26;font-weight: normal;}
+.list div .t4{font-size: 10px;color:#afafaf;}
+.list div .t5{width:80px;height:20px;font-size: 11px;background:#f62028;color:#edd7d6;border-radius: 10px;line-height: 18px;text-align: center;display: inline-block;box-shadow: 1px 0px 4px #1b0808;position: absolute;right: 30px;}
+.list div .yuan{display: inline-block;background-image:url(../images/index_05.png);background-size: 100% 100%;width: 14px;height: 14px;}
+
+.listitem{width: 95%;padding: 0px 0;background-color: #fff;margin: 10px auto;position: relative;text-align: left;}
+.listitem a {display: block;}
+.listitem .propic {width: 95%;margin: 0 auto;margin-bottom: 10px;display: block;border: none;vertical-align: middle;}
+.listitem .name {padding: 0 10px;font-size: 14px;color: #333;line-height: 24px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-weight: normal;margin: 0px;}
+.listitem .abstract {padding: 0 10px;font-size: 14px;color: #888;line-height: 24px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap; margin: 0;}
+.listitem .price {padding: 0 10px;font-size: 14px;font-weight: normal;color: #e11a1a;margin-top: 5px;margin: 0;}
+.listitem .buycar {position: absolute;right: 10px;bottom: 10px;width: 26px;height: 26px;}
+
+.mask{position: fixed;top: 0;left: 0;bottom:0;right: 0;background: #12b2a3;z-index: 44;}

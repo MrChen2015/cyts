@@ -1,0 +1,17 @@
+/*<--index-->*/
+.container{	margin: 0 auto;	width:100%;	height:100%;position: relative;text-align: center;}
+/*banner*/
+.banner{height: 30%;}
+.banner img{width: 100%;height: 100%;}
+
+.listitem{width: 95%;padding: 0px 0;background-color: #fff;margin: 10px auto;position: relative;}
+.listitem a {display: block;}
+.listitem .propic {width: 95%;margin: 0 auto;margin-bottom: 10px;display: block;border: none;vertical-align: middle;}
+.listitem .name {padding: 0 10px;font-size: 14px;color: #333;line-height: 24px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-weight: normal;margin: 0px;}
+.listitem .abstract {padding: 0 10px;font-size: 14px;color: #888;line-height: 24px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap; margin: 0;}
+.listitem .price {padding: 0 10px;font-size: 14px;font-weight: normal;color: #e11a1a;margin-top: 5px;margin: 0;}
+.listitem .buycar {position: absolute;right: 10px;bottom: 10px;width: 26px;height: 26px;}
+.footer{padding-bottom: 70px;margin-top: 20px;}
+.link{text-align: center;color: #d2d2d2;padding-bottom: 10px;margin-bottom: 10px;border-bottom: 1px solid #e5e5e5;}
+.link a {font-size: 14px;color: #333;margin: 0 8px;}
+.copy {text-align: center;font-size: 12px;line-height: 20px;color: #999999;}

@@ -1,0 +1,9 @@
+.body{width: 100%;height: 100%;background: #f7f5f5;margin-top: 60px;color:#000;font-size: 15px;font-weight: normal;}
+.content{height: 250px;background: #fff;border-bottom: 1px solid #d7d7d7;text-align: center;padding: 40px 20px;}
+.yets{margin-left: 20px;text-align: left;}
+.yemo{font-size: 45px;color: #f00;margin-top: 60px;}
+.yelj{margin-top: 10px;}
+.tiao{width: 100%;height: 60px;background: #fff;position: relative;border-bottom: 1px solid #d7d7d7;line-height: 60px;padding-left: 20px;}
+.tiao:after{content: ">";font-size: 25px;font-weight: normal;font-family: "黑体";color: #d7d7d7;float: right;position: absolute;right: 40px;}
+.tishi{margin: 20px;font-size: 13px;color: #9a9999;}
+.tishi img{width: 22px;float: left;margin: 3px 10px;}

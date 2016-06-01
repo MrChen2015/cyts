@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.container{padding-bottom:64px;}
+.package{ width:100%; position:relative; margin-bottom:5px;background: #fefefe;}
+.bg{ display:block; width:100%;}
+.kuai{border: 1px solid #000;padding:5px; }
+.jst1{height: 40px;background: #006a42;font-size: 20px;color: #eefcf3;text-align: center;line-height: 40px;}
+.jst2{color: #fbf319;}
+.jst3{color: #eefcf3;background: #006a42;margin: 10px auto;height: 20px;font-size: 15px;margin-left: 10px;width: 160px;line-height: 20px;border-top-right-radius: 20px;}
+.jst4{color: #f00;font-size: 15px;}
+.jst5{margin: 0 20px;line-height: 20px;}
+.jst6{color: #f00;margin-left:10px 20px;margin: 0 20px;}
+.jst7{text-align: left;margin: 0 20px;font-size: 12px;color: #f00;padding: 5px 0;}
+.jsdiv{width:100%; position:relative; margin-bottom:5px; padding-bottom: 20px;background: #ffffff;}
+.jsdiv img{width: 100%;padding: 20px;}
+
+
+

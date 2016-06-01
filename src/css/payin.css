@@ -1,0 +1,11 @@
+.body{width: 100%;margin-top: 80px;background:#f7f5f5;}
+.card{height: 80px;width: 100%;background: #fff;}
+.card h3,select,input{display: inline-block;}
+.card h3{width: 20%;float: left;font-size: 18px;text-align: center;margin: 10px 0;}
+.card div{float: left;width: 80%;}
+.card select{height: 40px;width: 100%;border: 0;font-size: 18px;font-weight: normal;outline: 0;color: #4f6490;margin-bottom: 10px;}
+.card p{font-size: 15px;font-weight: normal;color: #a7a7a6;margin-left: 4px;}
+.money{height: 50px;width: 100%;background: #fff;}
+.money h3{width: 20%;height: 100%;float: left;font-size: 14px;text-align: center;}
+.money input{height: 95%;width: 80%;border: 0;font-size: 14px;font-weight: normal;outline: 0;color: #4f6490;}
+.btn{display:block;width: 90%;height: 40px;margin: 0 auto;color: #fff;background-color: #f00;font-size: 20px;text-align: center;line-height: 40px;border-radius: 5px;border: 0;}

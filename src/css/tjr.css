@@ -1,0 +1,6 @@
+html,body{padding-bottom: 0 !important;height: 100%;}
+.container{	margin: 0 auto;	width:100%;	height:100%;position: relative;text-align: center;font-size: 15px;}
+.body{background:#f34541;height:100%;width: 100%;line-height: 100%;text-align: center; }
+.body .cen{position: absolute;left: 50%;margin-left: -90px;top: 50%;margin-top: -150px;width: 180px;height: 180px;}
+.body .cen img{border-radius: 100%;height: 180px;width: 180px;}
+.body .cen p{margin:20px auto;font-size: 20px;color: #fff; }
